@@ -1,10 +1,8 @@
 AndroidUSBCamera
 ============   
-AndroidUSBCamera is developed based on the [saki4510t/UVCCamera](https://github.com/saki4510t/UVCCamera), the project of USB Camera (UVC equipment) and the use of video data acquisition are highly packaged, and it can help developers using USB Camera devices easily by a few simple APIs. By using AndroidUSBCamera,you can detect and connect to a USB Camera simply.And you also can use it to realize taking picture,recording mp4,switching resolutions ,getting h.264/aac/yuv(nv21) stream and setting  camera's contrast or brightness,supporting 480P、720P、1080P and higher,etc.   
+AndroidUSBCamera is is a continuation of [jiangdongguo/AndroidUSBCamera](https://github.com/jiangdongguo/AndroidUSBCamera) that is in turn developed based on the [saki4510t/UVCCamera](https://github.com/saki4510t/UVCCamera), the project of USB Camera (UVC equipment) and the use of video data acquisition are highly packaged, and it can help developers using USB Camera devices easily by a few simple APIs. By using AndroidUSBCamera,you can detect and connect to a USB Camera with ease. You can also can use it to take pictures and recording mp4 videos. Some camera controls are available such as switching resolutions , getting h.264/aac/yuv(nv21) stream and setting camera's contrast or brightness, supporting 480P、720P、1080P and higher, etc.   
 
 Supporting Android 5.0,6.0,7.0,8.0,9.0
-
-[中文文档： AndroidUSBCamera，UVCCamera开发通用库](http://blog.csdn.net/andrexpert/article/details/78324181)  
 
 Usage
 -------
@@ -156,44 +154,6 @@ At last,remember adding permissions:  
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 <uses-permission android:name="android.permission.RECORD_AUDIO" />  
 ```     
-
-
-### 3. Solving Problems
-
-1. connected,but preview failed
-
-Please checking your preview format and change YUV to MJPEG or MJPEG to YUV,because some usb devices only supporting YUV   
-
-2. never found the device   
-
-- confirm your phone support otg   
-
-- get a file from your sd card named failed-device.txt in the path of root sd card/UsbCamera/failed-device.txt and tell me
-
-
-Download APK
--------  
-  
-&emsp;In order to display the functions, I develop a simple released apk,which is based on version 2.3.1,and the build version is 28.0.3.Here is my configs and if you have any questions please issues to me ,I will follow it do my best.
-```
-ext {
-    javaSourceCompatibility = JavaVersion.VERSION_1_8
-    javaTargetCompatibility = JavaVersion.VERSION_1_8
-    compileSdkVersion = 28
-    buildToolsVersion = '28.0.3'
-    minSdkVersion = 21
-    targetSdkVersion = 28
-    commonLibVersion= '2.12.4'
-}
-```   
-download way:  
-
-![download](https://github.com/jiangdongguo/AndroidUSBCamera/blob/master/gifs/download.png)  
-
-displaying:  
-
-![download](https://github.com/jiangdongguo/AndroidUSBCamera/blob/master/gifs/USBCam.gif)  
-
 
 Other Library about Android Camera
 -------
