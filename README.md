@@ -2,7 +2,7 @@ AndroidUSBCamera
 ============   
 AndroidUSBCamera is is a continuation of [jiangdongguo/AndroidUSBCamera](https://github.com/jiangdongguo/AndroidUSBCamera) that is in turn developed based on the [saki4510t/UVCCamera](https://github.com/saki4510t/UVCCamera). The project of USB Camera (UVC equipment) and the use of video data acquisition are highly packaged, and it can help developers using USB Camera devices easily by a few simple APIs. By using AndroidUSBCamera, you can detect and connect to a USB Camera with ease. You can also can use it to take pictures and recording mp4 videos. Some camera controls are available such as switching resolution, getting a h.264/aac/yuv(nv21) stream and setting camera's contrast and brightness.   
 
-Supporting Android 5.0,6.0,7.0,8.0,9.0
+Supporting Android 5.0, 6.0, 7.0, 8.0, 9.0
 
 Usage
 -------
