@@ -43,9 +43,9 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:paddingBottom="7dp"
             android:paddingTop="7dp"
-            android:text="对比度(contrast)"
+            android:paddingBottom="7dp"
+            android:text="Contrast"
             android:textColor="@color/colorWhite" />
 
         <SeekBar
@@ -69,9 +69,9 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:paddingBottom="7dp"
             android:paddingTop="7dp"
-            android:text="亮度(brightness)"
+            android:paddingBottom="7dp"
+            android:text="Brightness"
             android:textColor="@color/colorWhite" />
 
         <SeekBar
